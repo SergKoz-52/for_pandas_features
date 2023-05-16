@@ -4,6 +4,7 @@ from json import dumps, loads
 """
 Функция add_json_col добавляет или обновляет поле Pandas DataFrame с 
 json значениями
+---
 Examples:
     df = pd.DataFrame(
     {'A': [1,2,3], 'B': ['w', 'e', 'p'], 'C': ['2023', '2022', '2021']})
